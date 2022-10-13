@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    margin: 15px;
+    max-width: 75vw;
+}
+
+button {
+    padding: 14px 18px;
+    display: inline-block;
+}
+label {
+    margin-left: 0;
+    margin-top: 30px;
+}
+textarea {
+    display: block;
+    margin: 20px 0;
+    height: 150px;
+    width: 50vw;
+}
+
+body {
+  padding: 25px;
+}
+
+#textP, #textC {
+  padding: 10px;
+  width: 50%;
+  height: 150px;
+  margin-left: 50px;
+}
+
+#choice {
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.encT{
+  color: #000;
+  background-color: rgb(220, 220, 220);
+  width: 50%;
+  height: 80px;
+  font-size: 20px;
+  margin-top: 20px;
+  border-radius: 8px
+}
+
+
+.subButton {
+  background-color: #4CDF50;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  height: 50px;
+  font-size: 12pt;
+  font-weight: 600;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#subButtonH {
+  background-color: #4CDF50;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  height: 50px;
+  font-size: 12pt;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#encButton0, #decButton0 {
+  background-color: #73cf2a;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  display: block;
+  height: 50px;
+  font-size: 12pt;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 50px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#enhButton0, #dehButton0 {
+  background-color: #73cf2a;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  display: inline;
+  height: 50px;
+  font-size: 12pt;
+  font-weight: 600;
+  margin: 5px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#EDMenu {
+  visibility: hidden;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+#decButton0 {
+  background-color: #9fbd38;
+  margin-top: -50px;
+  margin-left: 240px;
+}
+
+#Home {
+  background-color: #c1c8c1;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  height: 50px;
+  font-size: 12pt;
+  font-weight: 600;
+  width: 120px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+p#inputT {
+  font-size: 16pt;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+#inputTM {
+  font-size: 16pt;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+p#inputP, #inputC {
+  font-size: 16pt;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#intext {
+  margin-left: 20px;
+  padding: 10px;
+  width: 30%;
+}
+
+input[type=text] {
+  border-radius: 4px;
+}
+
+#decButton {
+    margin-left: 10px;
+}
+
+.home {
+    position: absolute;
+    left: 10px;
+    top: 0;
+}
+
+h1 {
+    margin-top: 40px;
+}

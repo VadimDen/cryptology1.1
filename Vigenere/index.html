@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Шифр Віженера</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <a href="../index.html">
+        <svg style="margin-bottom: 10px" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+            <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+        </svg>
+    </a>
+    <h1>Шифр Віженера</h1>
+    <p class="inputTM">Введіть ключове слово, перед тим як ввести відкритий текст, або шифр.</p>
+
+<div class="inputBox">
+    <p id="inputT" for="chave">Ключова фраза: </p>
+    <input class="intext"== type="text" name="keyword" id="chave"></input>
+    <button class="subButton" type="button">Прийняти</button><br>
+</div>
+<br>
+<input class="hide" type="button" name="" onclick="
+encrip(
+	document.getElementById('texto'),
+	document.getElementById('chave'),
+	document.getElementById('cifra')
+)"
+value="crip">
+
+<input class="hide" type="button" name="" onclick="
+decrip(
+	document.getElementById('texto'),
+	document.getElementById('chave'),
+	document.getElementById('cifra')
+)"
+value="decrip">
+
+<div id="inputsAll" class="inputs">
+    <table border="solid black" id="ascii"></table>
+    <p class="inputTM">Впишіть відкритий текст, або шифр.</p>
+    <br>
+
+    <label for="texto">Відкритий текст</label>	
+    <br>
+
+    <textarea id="texto" placeholder="Введіть текст для шифрування." onkeyup="encrip(
+        document.getElementById('texto'),
+        document.getElementById('chave'),
+        document.getElementById('cifra')
+    )"></textarea>
+    <br>
+
+    <label for="cifra">Шифр</label>
+    <br>
+
+    <textarea id="cifra" placeholder="Введіть текст для дешифрування." onkeyup="decrip(
+        document.getElementById('texto'),
+        document.getElementById('chave'),
+        document.getElementById('cifra')
+    )"></textarea>
+
+    <button class="subButton subButton_last" type="button">Змінити ключ шифру?</button>
+</div>
+
+<input type="text" id="minASCII" name="minASCII" value="97">
+
+<input type="text" id="maxASCII" name="maxASCII" value="123">
+</p>
+<script src="vigenere.js"></script>
+</body>
+</html>
